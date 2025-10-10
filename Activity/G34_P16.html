@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>Media Entertainment Channel</title>
+    <style>
+      h1 {
+        color: white;
+        padding: 20px;
+        background-color: #971570;
+      }
+      body {
+        text-align: center;
+      }
+      .video_container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* allows wrapping on smaller screens */
+      }
+      .video-card {
+        border-radius: 10px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+      }
+      iframe {
+        border: 4px solid grey;
+        border-radius: 25px;
+      }
+      .card_container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* allows wrapping on smaller screens */
+      }
+      .card {
+        text-align: center;
+        border: 4px solid #971570;
+        border-radius: 10px;
+        width: 250px;
+        margin: 35px;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+      }
+      .btn {
+        margin-top: 10px;
+        background-color: #e42cac;
+        color: white;
+        padding: 7px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: #971570;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Media Entertainment Channel</h1>
+    <h2>Most Popular Shows</h2>
+    <div class="video_container"> <br><br>
+      <div class="video-card"> <iframe width="250" height="150" src="https://www.youtube.com/embed/teNyheMCfXU?si=KWHhRENS_A6c7qQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>George's Squishy Path! 🐵</p>
+      </div>
+      <div class="video-card"> <iframe width="250" height="150" src="https://www.youtube.com/embed/kumA6-6QZB4?si=y-vh0CvrfKTDgfgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Summer Adventures with George ☀️ 🏄‍♂️</p>
+      </div>
+      <div class="video-card"> <iframe width="250" height="150" src="https://www.youtube.com/embed/kd4ya7Lt2Vs?si=_1v0qbo_6-1fJ4SR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>The Crazy Go-Kart Race🏎 </p>
+      </div>
+      <div class="video-card"> <iframe width="250" height="150" src="https://www.youtube.com/embed/Rucid0bIvM4?si=T9-2q0o1CznwLBVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>George's Broken Leg 🐵</p>
+      </div>
+    </div>
+    <h2>Pricing Plans</h2>
+    <div class="card_container"> <br><br>
+      <div class="card">
+        <h3>Basic</h3>
+        <hr>
+        <p>SD Quality</p>
+        <p>1 Device</p>
+        <p>1 Screen</p>
+        <p><strong>₹199/month</strong></p>
+        <button class="btn">Subscribe</button>
+      </div>
+      <div class="card">
+        <h3>Standard</h3>
+        <hr>
+        <p>HD Quality</p>
+        <p>2 Devices</p>
+        <p>2 Screen</p>
+        <p><strong>₹499/month</strong></p>
+        <button class="btn">Subscribe</button>
+      </div>
+      <div class="card">
+        <h3>Premium</h3>
+        <hr>
+        <p>Ultra HD Quality</p>
+        <p>3 Devices</p>
+        <p>4 Screen</p>
+        <p><strong>₹799/month</strong></p>
+        <button class="btn">Subscribe</button>
+      </div>
+    </div>
+  </body>
+</html>

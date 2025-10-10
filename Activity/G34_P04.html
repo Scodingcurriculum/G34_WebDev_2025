@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Pizza Ordering Form</title>
+    <style>
+      form {
+        margin: 50px;
+        padding: 20px;
+        width: 70%;
+        background-color: #ffcc99;
+        display: block;
+      }
+      input,
+      label {
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label>Your Name: </label><input type="text"><br><label>Address: </label><input type="text"><br><label>Phone Number: </label><input type="tel"><br><label>Schedule delivery for: </label><input type="datetime-local"><br><label>Pizza Type: </label>
+      <div id="d1"> <input type="radio" id="Margherita"><label for="Margherita">Margherita</label><input type="radio" id="cc"><label for="cc">Corn & Cheese Pizza</label><input type="radio" id="Pepperoni"><label for="Pepperoni">Pepperoni Pizza</label></div><label for="toppings"></label>
+      <select id="toppings">
+        <option>--Select--</option>
+        <option>Extra Cheese</option>
+        <option>Olives</option>
+        <option>Jalapeno</option>
+        <option>Onion/capsicum</option>
+      </select>
+      <button onclick="submit()">Submit</button>
+    </form>
+  </body>
+  <script>
+    function submit() {
+      alert("Order Placed")
+    }
+  </script>
+</html>

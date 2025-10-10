@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+      body {
+        font-family: 'Comic Neue', cursive;
+        ;
+        text-align: center;
+        background-color: #fff8e7;
+      }
+      header {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .cart-link {
+        font-size: 30px;
+        text-transform: none solid;
+        color: #333;
+      }
+      .products {
+        display: flex;
+        margin: 20px;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+      }
+      .product {
+        background-color: #fff;
+        border: 2px solid #ff0066;
+        border-radius: 10px;
+        flex: 0 1 calc(30% - 20px);
+        /* 💡 3 items per row */
+        box-sizing: border-box;
+        padding: 10px;
+      }
+      .product img {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+      }
+      button {
+        background-color: #ffcccb;
+        border: 0px solid #ff0066;
+        border-radius: 8px;
+        padding: 10px;
+        margin-top: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Toy Store</h1>
+      <a target="_blank" href="https://app.edublocks.org/project/new?name=P21&mode=html&type=blocks" class="cart-link"> 🛒
+      </a>
+    </header>
+    <section class="products">
+      <div class="product"> <img src="https://tse4.mm.bing.net/th/id/OIP.qkceI8NT8lkgdtPxOhQXkgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3">
+        <h3>Teddy Bear</h3>
+        <p>$10</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product"> <img src="https://yt3.googleusercontent.com/TGXnWOqW2SrqgJaq-jZugdMAuFT_iQaJGo0PX-MgT9qovobbbiTRkg_o7mHYqHNWkB5cE1_JBg=s900-c-k-c0x00ffffff-no-rj">
+        <h3>Story Book</h3>
+        <p>$5</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product"> <img src="https://cdn.pixabay.com/photo/2013/07/13/10/51/basketball-157925_1280.png">
+        <h3>Ball</h3>
+        <p>$7</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product"> <img src="https://freesvg.org/storage/img/thumb/kids_backpack.png">
+        <h3>Bag</h3>
+        <p>$20</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product"> <img src="https://th.bing.com/th/id/OIP.4US7ecR7ippKvownhy8KDgHaF4?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3">
+        <h3>Magnetic Tiles Toy</h3>
+        <p>$50</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product"> <img src="https://mediahub.debenhams.com/m691621020487_multi_xl.jpeg">
+        <h3>Mapology</h3>
+        <p>$40</p>
+        <button>Add to Cart</button>
+      </div>
+    </section>
+  </body>
+</html>
