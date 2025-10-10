@@ -1,0 +1,164 @@
+<html>
+  <head>
+    <title>Theme Park Based Project</title>
+    <style>
+      html {
+        scroll-behavior: smooth
+      }
+      #header {
+        background-image: url("https://tse4.mm.bing.net/th/id/OIP.-4bJt93GmuWaJdjGUvbN0gHaE8?w=1200&h=800&rs=1&pid=ImgDetMain&o=7&rm=3");
+        width: 100%;
+        overflow-x: hidden;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        height: 150px;
+      }
+      h1 {
+        background-color: #339999;
+        margin-top: 60px;
+        color: white;
+        width: 250px;
+      }
+      body {
+        background-color: #ccffff;
+        text-align: center;
+      }
+      h2 {
+        color: black;
+        width: 100%;
+        padding: 5px;
+        height: 20px;
+      }
+      #navbar {
+        background-color: #ccffff;
+        float: right;
+        padding: 5px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .menu {
+        display: inline-table;
+        margin: 10px;
+      }
+      a {
+        text-transform: none solid;
+        color: grey;
+        font-size: 18px;
+      }
+      a:hover {
+        color: #ff0066;
+      }
+      img {
+        border: 5px double #663366;
+        width: 300px;
+      }
+      .d1 {
+        display: inline-block;
+      }
+      form {
+        width: 60%;
+        background-color: #339999;
+        border-radius: 5px;
+        padding: 20px;
+        color: white;
+        font-size: 18px;
+        margin: auto;
+      }
+      label {
+        margin-top: 15px;
+      }
+      input {
+        margin-top: 15px;
+        margin-right: 5px;
+      }
+      button {
+        margin: 20px;
+        font-size: 18px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #99ffff;
+      }
+      #ticket_booking {
+        margin: 50px;
+        padding: 25px;
+        border: 1px solid grey;
+        background-color: #ccffff;
+        border-radius: 20px;
+      }
+      #hotels {
+        list-style-type: circle;
+        text-align: left;
+        margin-left: 22%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Dubai Mall</h1>
+    </div>
+    <ul id="navbar" style="list-style-type:none;">
+      <li class="menu">
+        <a target="_blank" href="#shop">
+          <p>Shop</p>
+        </a>
+      </li>
+      <li class="menu">
+        <a target="_blank" href="#stay">
+          <p>Stay</p>
+        </a>
+      </li>
+      <li class="menu">
+        <a target="_blank" href="#dine">
+          <p>Dine</p>
+        </a>
+      </li>
+      <li class="menu">
+        <a target="_blank" href="#entertain">
+          <p>Entertain</p>
+        </a>
+      </li>
+    </ul>
+    <section id="shop">
+      <h2>Shop International Brands</h2>
+      <div class="d1"> <img src="https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/Al-Jaber-Gallery-Dubai-Mall.jpg">
+        <p>Luxury Brands</p>
+      </div>
+      <div class="d1"> <img src="https://thumbs.dreamstime.com/b/people-shopping-dubai-mall-store-center-uae-december-do-117991476.jpg">
+        <p>Exquisite Items</p>
+      </div>
+      <div class="d1"> <img src="https://thingstodoindubai.com/wp-content/uploads/2021/05/Dubai-mall-inside-view.jpg">
+        <p>Amazing Views</p>
+      </div>
+      <div class="d1"> <img src="https://tse1.mm.bing.net/th/id/OIP.Gujy71rGo_3yA2bHia0cjAHaEK?w=1024&h=576&rs=1&pid=ImgDetMain&o=7&rm=3">
+        <p>Experience the Royalties</p>
+      </div>
+    </section>
+    <section id="stay">
+      <h2>Book a Visit</h2>
+      <form>
+        <label for="date">Date : </label><input type="date"><br><label>Email tickets at : </label><input type="email"><br><label>Name : </label><input type="text"><br><label>Age : </label><input type="number"><br><label>Number of Adults : </label><input type="number"><br><label>Number of Children : </label><input type="number"><br><button onclick="submit()">Submit</button><button onclick="add()">Add More</button>
+      </form>
+    </section>
+    <section id="dine">
+      <p>With stunning views and delicious cuisines, don't miss the chance to dine at these exceptional mall restaurants.</p>
+      <ul id="hotels">
+        <li class="hotel">
+          La Maison Ani
+        </li>
+        <li class="hotel">
+          Armani/Caffe
+        </li>
+        <li class="hotel">
+          Novikov Café
+        </li>
+        <li class="hotel">
+          Amaya
+        </li>
+      </ul>
+    </section>
+    <section id="entertain"> <iframe width="400" height="300" src="https://www.youtube.com/embed/q7_WWTx3IQU?si=TyFRX9eY7ILeQQ8S" title="YouTube video player" frameborder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+  </body>
+</html>
+#993399

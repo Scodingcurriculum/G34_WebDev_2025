@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Appointment Booking </title>
+  </head>
+  <body>
+    <h1>Book Appointment with Dr. Allen Smit, Dentist</h1>
+    <label>Your Name: </label><input type="text">
+    <hr><br><label>Age : </label><input type="number">
+    <hr><br><label>Phone Number: </label><input type="tel">
+    <hr><br><label>Schedule appointment for: </label><input type="datetime-local">
+    <hr><br><label>Book Appointment for: </label><br>
+    <div id="d1"> <input type="radio" id="Regular"><label for="Regular">Regular Checkup</label><br><input type="radio" id="Root_Canal"><label for="Root_Canal">Root Canal Treatment</label><br><input type="radio" id="cc"><label for="cc">Cavity Removal</label><br><input type="radio" id="smile"><label for="smile">Smile Designing</label><br></div><br>
+    <hr><label for="toppings"></label>
+    <select id="toppings">
+      <option>--Select--</option>
+      <option>Extra Cheese</option>
+      <option>Olives</option>
+      <option>Jalapeno</option>
+      <option>Onion/capsicum</option>
+    </select>
+    <br>
+    <hr><button onclick="submit()">Submit</button>
+  </body>
+  <script>
+    function submit() {
+      alert("Order Placed")
+    }
+  </script>
+</html>
