@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Side Panel Menu</title>
+    <style>
+      body {
+        margin: 0px;
+        font-family: Arial, sans-serif;
+        ;
+      }
+      .main-content {
+        text-align: center;
+      }
+      .side-panel {
+        position: fixed;
+        left: 0;
+        width: 0px;
+        height: 100%;
+        background-color: grey;
+        overflow-x: hidden;
+        transition: width 0.3s;
+      }
+      .side-panel:hover {
+        width: 200px;
+      }
+      .side-panel a {
+        margin-top: 30px;
+        display: block;
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+      .side-panel a:hover {
+        background-color: #ff0066;
+      }
+      .open-btn {
+        position: fixed;
+        top: 20px;
+        left: 10px;
+        z-index: 2 font-size: 24px;
+        color: white;
+        background-color: #000000;
+        cursor: pointer;
+        padding: 5px;
+      }
+      .close-btn {
+        position: fixed;
+        top: 20px;
+        left: 10px;
+        font-size: 24px;
+        color: white;
+        background-color: transparent;
+        border: 0px solid #ff0066;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <label for="menu-toggle" class="close-btn">>></label>
+    <div class="side-panel"> <label for="menu-toggle" class="open-btn">>></label><a target="_blank" href="https://app.edublocks.org/project/nUzyVQETBJPkzeglmnsunhpeT7P2/0Tr6vcStIlVNay4yOnqc"> Login
+      </a><a target="_blank" href="https://app.edublocks.org/project/nUzyVQETBJPkzeglmnsunhpeT7P2/kBs0EPx25Crkq0rKd3jT"> Products
+      </a><a target="_blank" href="https://app.edublocks.org/project/nUzyVQETBJPkzeglmnsunhpeT7P2/6aIpbCR75QMK0jYmmgUf"> Cart
+      </a><a target="_blank" href="https://app.edublocks.org/project/nUzyVQETBJPkzeglmnsunhpeT7P2/dSuPTr586NU7Lx7MNYfE"> Payment Page
+      </a></div>
+    <div class="main-content">
+      <h1>Welcome</h1>
+      <p>Welcome To Minishop</p>
+    </div>
+  </body>
+</html>
